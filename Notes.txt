@@ -1,0 +1,42 @@
+Reading User Commands from Command Prompt
+=> process.argv(arguments)
+
+Reading Multiple user inputs from the command prompt:
+=> Yargs package : This package is used for interactive command line tool
+=> Install Yargs by 'npm install yargs'
+=> To use Yargs : console.log(yargs.argv)
+
+=============================================================
+File System Module:
+
+Operations associated with the File system:
+------------------------------------------
+1. Opening the File : Open any existing File.
+Syntax: fs.open(path,flags,[mode],callback)
+
+2. Get File : Getting the File Info
+Syntax: fs.stat(path,callback)
+
+3. Write File : Writing into the File
+Syntax : fs.writeFile(path,data,[mode],callback)
+
+4. Read File : Read from the File
+Syntax : fs.readFile(path,callback)
+
+5. Rename File : Renaming the File
+Syntax : fs.rename(oldname,newname,callback)
+
+6. Append File : Appending the File
+Syntax : fs.AppendFile(filepath,data to append,callback)
+
+7. Delete File : Deleting a filepath
+Syntax : fs.unlink(path,callback)
+
+=======================================================
+JSON data : Javascript Object Notation
+
+JSON data is written in key-value pairs
+ex: 'name':'Imran'
+
+- To convert JSON string to JavaScript object : JSON.parse()
+- 
